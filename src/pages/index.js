@@ -1,17 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-import Navbar from "../components/Navbar"
+import Layout from "../components/layout"
 
 const index = () => {
   return (
-    <div>
-      <Navbar />
-      Hello People!
-      <div>
-        <Link to="/blog/">blog page</Link>
-      </div>
-      <a href="https://www/gatsbyjs.org">gatsby docs</a>
-    </div>
+    <Layout>
+      <h1> Hello from Gatsby</h1>
+    </Layout>
   )
 }
 
